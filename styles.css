@@ -1,81 +1,95 @@
-*{
-    box-sizing: border-box;
-    font-family: 'Raleway', sans-serif;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 90vh;
-    background-color: #808080;
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  background-color: #808080;
 }
 
-#wrapper{
-    width: 600px;
-    background: rgb(228, 227, 227);
-    border-radius: 13px;
-    padding: 30px 30px 25px;
+#wrapper {
+  width: 600px;
+  background: rgb(228, 227, 227);
+  border-radius: 13px;
+  padding: 30px 30px 25px;
 }
 
-#wrapper #quote-box .quote-text{
-    margin: 35px 0;
-    display: flex;
-    justify-content: center;
+#wrapper #quote-box .quote-text {
+  margin: 35px 0;
+  display: flex;
+  justify-content: center;
 }
-#text{
-    font-size: 26px;
-    margin-left: 10px;
-}
-
-.footer{
-    margin-top: 10px;
-    font-style: italic;
-    color: white;
+#text {
+  font-size: 26px;
+  margin-left: 10px;
 }
 
-.quote-author #author{
-    display: flex;
-    font-size: 18px;
-    font-style: italic;
-    justify-content: flex-end;
-    margin: 10px
+.footer {
+  margin-top: 10px;
+  font-style: italic;
+  color: white;
 }
 
-.buttons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    border-top: 1px solid #ccc;
-    padding-top: 15px;
+.quote-author #author {
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  justify-content: flex-end;
+  margin: 10px;
 }
 
-button{
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    background-color: #808080;
-    color: #fff;
-    padding: 10px;
-    font-size: 15px;
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
 }
 
-a{
-    border: 2px solid #ccc;
-    border-radius: 20px;
-    background-color: #808080;
-    color: #fff;
-    padding: 10px;
-    font-size: 15px;
+button {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: #808080;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
 }
 
-.social-media{
-    font-size: 30px;
+a {
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  background-color: #808080;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
 }
 
-button:hover{
-    cursor: pointer;
+.social-media {
+  font-size: 30px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 610px) {
+  #wrapper {
+    width: 100%;
+  }
+
+  #text {
+    font-size: 20px;
+  }
+
+  #author {
+    font-size: 8px;
+  }
 }
