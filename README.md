@@ -1,5 +1,16 @@
-This project is part of my introductory journey into the world of programming, making it part of my construction and evolution, so I keep it with great appreciation.
+# Random Quote Machine
+This is a Random Quote Machine project. The web page displays a random quote each time the "New Quote" button is clicked.
 
-This project elaborates random phrases with their respective authors, from an API call.
+## Technologies used
+* HTML
+* CSS
+* JavaScript
+* Bootstrap
+* Font Awesome
+* jQuery
 
-In this project the languages ​​JavaScript, CSS, HTML were used. With the respective frameworks: Bootstrap and JQuery
+## How to run the project
+To run the project, simply open the index.html file in a web browser.
+
+## License
+All rights reserved.
