@@ -76,6 +76,10 @@ a {
   font-size: 30px;
 }
 
+#tcc {
+  background-color: #00000000;
+}
+
 button:hover {
   cursor: pointer;
 }
